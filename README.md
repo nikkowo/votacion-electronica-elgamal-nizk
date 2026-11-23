@@ -7,6 +7,9 @@ verificador público independiente. **No es apto para elecciones reales.**
 
 El informe final está en [`docs/Informe_final_votacion_electronica.pdf`](docs/Informe_final_votacion_electronica.pdf)
 y la correspondencia con los requisitos en [`RUBRICA.md`](RUBRICA.md).
+Los [ejemplos completos de voto 0 y 1](examples/ejemplos_0_y_1.md) responden
+a las observaciones del docente sobre el primer entregable; se regeneran con
+`python examples_generate.py`.
 
 ## Requisitos e instalación
 

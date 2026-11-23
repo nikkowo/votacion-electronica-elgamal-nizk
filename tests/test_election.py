@@ -55,6 +55,13 @@ class CryptoTests(unittest.TestCase):
         altered["decryption_proof"]["s"] = "00" * 32
         self.assertFalse(verify_tally(self.params, ballots, altered))
 
+    def test_published_binary_examples(self):
+        root = Path(__file__).resolve().parents[1] / "examples"
+        params = json.loads((root / "parametros_ejemplo.json").read_text(encoding="utf-8"))
+        for bit in (0, 1):
+            ballot = json.loads((root / f"voto_{bit}.json").read_text(encoding="utf-8"))
+            self.assertTrue(verify_ballot(params, ballot))
+
 
 class FlowTests(unittest.TestCase):
     def setUp(self):

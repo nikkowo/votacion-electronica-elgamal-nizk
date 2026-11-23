@@ -11,7 +11,8 @@
 | Conteo homomórfico y descifrado solo del agregado | `aggregate`, `tally` |
 | Expediente público y verificador independiente | `close`, `verify.py`, `examples/dossier.json` |
 | Formato versionado y codificación inequívoca | JSON versión 1, SEC1 y escalares de 32 bytes; `README.md` |
-| Pruebas positivas, negativas y manipulación | `tests/test_election.py`; 10 pruebas |
+| Ejemplos completos de 0 y 1 solicitados en la retroalimentación | `examples/ejemplos_0_y_1.md`, anexos del informe, `examples_generate.py` |
+| Pruebas positivas, negativas y manipulación | `tests/test_election.py`; 11 pruebas |
 | Experimentos 1, 5, 10 y 20 votos | `experiments.py`, `results/measurements.csv` |
 | Reproducción desde cero | `requirements.txt`, `README.md`, `demo.py`, CI |
 | Informe final de 8–12 páginas | `docs/Informe_final_votacion_electronica.pdf`, 9 páginas |
