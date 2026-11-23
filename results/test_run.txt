@@ -1,0 +1,15 @@
+test_known_distributions (test_election.CryptoTests.test_known_distributions) ... ok
+test_tally_manipulation (test_election.CryptoTests.test_tally_manipulation) ... ok
+test_tampering_and_nonbinary (test_election.CryptoTests.test_tampering_and_nonbinary) ... ok
+test_atomic_replace_failure_keeps_previous_file (test_election.FlowTests.test_atomic_replace_failure_keeps_previous_file) ... ok
+test_concurrent_replay_accepts_exactly_once (test_election.FlowTests.test_concurrent_replay_accepts_exactly_once) ... ok
+test_dossier_tamper (test_election.FlowTests.test_dossier_tamper) ... ok
+test_full_flow_and_independent_verification (test_election.FlowTests.test_full_flow_and_independent_verification) ... ok
+test_invalid_proof_does_not_consume_token (test_election.FlowTests.test_invalid_proof_does_not_consume_token) ... ok
+test_replay_unknown_and_closed (test_election.FlowTests.test_replay_unknown_and_closed) ... ok
+test_same_ballot_with_different_token_is_rejected (test_election.FlowTests.test_same_ballot_with_different_token_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 9.009s
+
+OK

@@ -1,0 +1,5 @@
+votes,repetitions,ballot_bytes_mean,create_ms_mean,verify_ms_mean,audit_ms_mean
+1,5,651,31.082,15.969,21.624
+5,5,651,34.444,17.983,105.225
+10,5,651,34.343,17.632,170.835
+20,5,651,25.189,13.329,295.689
